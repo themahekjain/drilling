@@ -1,11 +1,12 @@
 
+import MainComponent from "./mainComponent";
 import "./styles.css";
-import Parent from "./mainComponent";
 
-export const App = () => {
+export const App = ()=> {
 	return (
 		<div className="App">
-			<Parent />
+			<MainComponent />
 		</div>
 	);
 }
+export default App;
